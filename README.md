@@ -9,7 +9,7 @@ This project is a sentiment analysis web application that analyzes customer revi
 
 **Sentiment Analysis:** The entered review is processed using natural language processing techniques to determine the sentiment expressed in the text.
 
-**Result Display:** The sentiment analysis result (positive, negative, or neutral) is displayed to the user along with the original review text.
+**Result Display:** The sentiment analysis result (positive or negative) is displayed to the user.
 
 # Dataset
 https://www.kaggle.com/datasets/lapodini/british-airway-reviews
