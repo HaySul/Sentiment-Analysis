@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #032539; /* Darker background color */
+}
+
+.container {
+    max-width: 500px;
+    min-height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1c768f;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+
+
+.input-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Adjusts the width to include padding and border */
+}
+
+.input-group button {
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:large;
+    border: none;
+    background-color: #fa991c;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px; /* Adjust the margin to lower the button */
+}
+
+.input-group button:hover {
+    background-color: #45a049;
+}
+
+.prediction-text {
+    background-color: #fbf3f2;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size:xx-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fa991c;
+}
+
+.image-container {
+    text-align: center; /* Center-align the image container */
+}
+
+.logo {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Ensure image is centered horizontally */
+}
